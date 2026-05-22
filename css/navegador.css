@@ -1,0 +1,28 @@
+nav {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    background-color: aqua;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+nav ul li a {
+    color: #c61818;
+    text-decoration: none;
+}
